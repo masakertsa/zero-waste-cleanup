@@ -3,6 +3,29 @@
 This project introduces a 100% biodegradable, non-electric, and zero-waste capsule designed for large-scale microplastic removal from oceanic and marine environments. Operating entirely on natural physical and chemical principles, the capsule captures microplastics and transitions into a magnetic state for rapid, net-free harvesting.
 
 ## 🛠️ Technical Design & Architecture
+```mermaid
+graph TD
+    subgraph "1. Outer Biopolymer Membrane"
+        A[Bright Red Dye & Bittering Agent] -->|Protects birds/fish & helps drones| B[Protective Shell]
+        C[Degradation Trigger: Time or Pressure] -->|Opens shell| B
+    end
+
+    subgraph "2. Intermediate Filter Layer"
+        B --> D[Hydrophobic Vegetable Oil Matrix]
+        D -->|Like dissolves like| E[Traps Hydrophobic Microplastics]
+    end
+
+    subgraph "3. Osmotic & Magnetic Core"
+        F[High-Concentration Salt Core] -->|Creates osmotic gradient| G[Passive Osmotic Pump]
+        G -->|Draws plastic-heavy water through oil| D
+        H[Magnetized Iron Powder] -->|Acts as ballast weight| I[Initial Deep Descent]
+        H -->|Enables net-free harvesting| J[Electromagnetic Retrieval]
+    end
+
+    style B fill:#EC7063,stroke:#333,stroke-width:2px
+    style D fill:#F4D03F,stroke:#333,stroke-width:2px
+    style H fill:#5D6D7E,stroke:#333,stroke-width:2px
+```
 
 The capsule consists of three strategically layered biomaterial components that trigger specific chemical and mechanical reactions over time or at depth:
 
