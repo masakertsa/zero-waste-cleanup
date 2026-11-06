@@ -41,6 +41,22 @@ The capsule consists of three strategically layered biomaterial components that 
     *   **Magnetized Iron Powder:** Mixed within the core is non-toxic, magnetized iron powder, which initially serves as a physical ballast weight to pull the capsule down into the water column. As the salt dissolves and the oil traps the light plastic particles, the capsule gains buoyancy to rise back toward the surface. The iron powder turns the entire capsule into a highly magnetic target, allowing cleanup vessels to harvest thousands of capsules instantly using high-powered electromagnets without using disruptive trawling nets.
 
 ## 🔄 Environmental Lifecycle (Zero Waste)
+```mermaid
+graph TD
+    Start[Capsule Deployment] --> Descent[Descent: Iron powder acts as ballast weight]
+    Descent --> Trigger[Trigger: Time or Hydrostatic Pressure opens shell]
+    Trigger --> Pump[Osmotic Pump: Salt core draws water inside]
+    Pump --> Trapping[Trapping: Vegetable oil filters and binds microplastics]
+    Trapping --> Buoyancy[Buoyancy Shift: Salt dissolves, plastic lightens capsule]
+    Buoyancy --> Ascent[Ascent: Capsule rises back to the surface]
+    
+    Ascent --> Retrieval{Electromagnetic Retrieval?}
+    Retrieval -->|Yes| Harvest[Harvested: Cleaned via electromagnets without nets]
+    Retrieval -->|No / Lost| Biodegrade[Biodegrades: Safe breakdown, iron supplements seabed]
+
+    style Trigger fill:#EB984E,stroke:#333,stroke-width:1px
+    style Retrieval fill:#AF7AC5,stroke:#333,stroke-width:2px
+```
 
 If a capsule is lost or evades magnetic retrieval, it poses **zero environmental hazard**. Every single component—from the outer biopolymer to the vegetable oil and salt core—is fully biodegradable and non-toxic. The iron powder returns to the seabed as a natural iron supplement for marine flora.
 
