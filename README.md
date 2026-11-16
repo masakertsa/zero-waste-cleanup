@@ -1,67 +1,70 @@
-# 🌊 Zero Waste Cleanup: Passive Microplastic Magnetic Catcher
 
-This project introduces a 100% biodegradable, non-electric, and zero-waste capsule designed for large-scale microplastic removal from oceanic and marine environments. Operating entirely on natural physical and chemical principles, the capsule captures microplastics and transitions into a magnetic state for rapid, net-free harvesting.
+🌊 Zero Waste Cleanup: Passive Deep-Water Microplastic Magnetic Catcher
 
-## 🛠️ Technical Design & Architecture
-```mermaid
+This project introduces a 100% marine-biodegradable, non-electric, and zero-waste capsule designed for large-scale microplastic removal from oceanic and deep-water environments. Operating entirely on natural osmotic pressure, hydrophobic oil-binding, and ocean current dynamics, the capsule captures subsurface microplastics and transitions into a buoyant magnetic state for rapid, net-free harvesting.
+
+🛠️ Technical Design & Architecture
+
+mermaid
 graph TD
-    subgraph "1. Outer Biopolymer Membrane"
-        A[Bright Red Dye & Bittering Agent] -->|Protects birds/fish & helps drones| B[Protective Shell]
-        C[Degradation Trigger: Time or Pressure] -->|Opens shell| B
+    subgraph "1. Dual-Layer Marine-Biodegradable Shell"
+        A[Bright Red Dye & Bittering Agent] -->|Protects birds/fish & helps drones| B[Seaweed Alginate + PHA Shell]
+        C[Time Dissolution + Hydrostatic Pressure 5–20 bar] -->|Calibrated depth rupture 50–200 m| B
     end
 
-    subgraph "2. Intermediate Filter Layer"
-        B --> D[Hydrophobic Vegetable Oil Matrix]
-        D -->|Like dissolves like| E[Traps Hydrophobic Microplastics]
+    subgraph "2. Cold-Resistant Bio-Ferrofluid Matrix"
+        B --> D[Oleic Acid & Cold-Stable Vegetable Oil]
+        D -->|Remains liquid at +2 to +4 °C & traps plastics| E[Traps Hydrophobic Microplastics]
+        F[Oleic-Coated Magnetite Fe₃O₄] -->|Binds permanently to oil droplets| D
     end
 
-    subgraph "3. Osmotic & Magnetic Core"
-        F[High-Concentration Salt Core] -->|Creates osmotic gradient| G[Passive Osmotic Pump]
-        G -->|Draws plastic-heavy water through oil| D
-        H[Magnetized Iron Powder] -->|Acts as ballast weight| I[Initial Deep Descent]
-        H -->|Enables net-free harvesting| J[Electromagnetic Retrieval]
+    subgraph "3. Exothermic Osmotic Burst Core"
+        G[Calcium Chloride CaCl₂ Core] -->|Creates osmotic gradient & exothermic heat| H[Controlled Osmotic Burst]
+        H -->|Ruptures shell & disperses magnetic oil| D
+        E -->|Light plastics + oil lift cluster| I[Surface Ascent & Magnetic Boom Retrieval]
     end
 
     style B fill:#EC7063,stroke:#333,stroke-width:2px
     style D fill:#F4D03F,stroke:#333,stroke-width:2px
-    style H fill:#5D6D7E,stroke:#333,stroke-width:2px
-```
+    style G fill:#5D6D7E,stroke:#333,stroke-width:2px
+Käytä koodia harkiten.
+The capsule consists of three strategically layered biomaterial components engineered for cold, high-pressure deep-sea environments:
+• 1. The Dual-Layer Marine-Biodegradable Shell (Seaweed Alginate + PHA):
+	• Time- & Pressure-Controlled Activation: Unlike standard PLA bioplastics that require industrial composting heat (+60 °C) and persist in cold oceans, this capsule uses an outer seaweed alginate film (for time-controlled dissolution) paired with a rigid PHA (polyhydroxyalkanoate) inner shell that degrades in cold marine sediment and ruptures at calibrated hydrostatic pressure (5–20 bar at 50–200 meters depth).
+	• Avian & Marine Protection: The shell is dyed bright red. Based on ocean physics, red light is filtered out completely within the first few meters of water depth, making the capsule look like an invisible, non-food item (grey/black stone) to deep-sea fish. For surface birds, the shell is infused with a natural bittering agent, ensuring birds instantly reject it if tasted. The red color also ensures effortless visual spotting for retrieval drones on the surface.
+• 2. The Cold-Resistant Bio-Ferrofluid Matrix (Oleic Acid + Magnetite Fe₃O₄):
+	• Deep-Sea Viscosity Control: At deep-water temperatures of +2 °C to +4 °C, standard vegetable oils solidify. The matrix uses cold-resistant oleic acid (with a low solidification point) blended with refined plant oils so the carrier remains fluid in cold currents.
+	• Plastic Binding Affinity: Based on the chemical law of "like dissolves like", both microplastics and organic oils are highly hydrophobic (water-repelling). Non-toxic magnetite (Fe₃O₄) nanoparticles coated with hydrophobic oleic acid bind permanently to the oil droplets, turning the entire oil-plastic cluster into a cohesive magnetic target as microplastics partition into the oil phase.
+• 3. The Exothermic Osmotic Burst Core (CaCl₂):
+	• Exothermic Osmotic Pump: At the absolute center sits a calcium chloride (CaCl₂) salt core. When seawater permeates the inner membrane, CaCl₂ generates a powerful osmotic gradient while releasing mild exothermic heat that keeps the surrounding oil matrix fluid.
+	• Controlled Osmotic Burst & Ascent: Rising internal pressure ruptures the PHA shell in a controlled burst, dispersing the magnetic bio-ferrofluid droplets into the water column. As the salt dissolves and the oil binds low-density microplastics, the buoyant clusters rise back to the surface for rapid, net-free collection via electromagnetic booms or cleanup vessels.
 
-The capsule consists of three strategically layered biomaterial components that trigger specific chemical and mechanical reactions over time or at depth:
+🧭 Ocean Current Logic: Upstream Deployment & Downstream Retrieval
 
-*   **1. The Protective Outer Shell (Biopolymer Membrane):** 
-    *   **Trigger Mechanisms:** The outer membrane is engineered with two optional deployment modes: **Time-Based Dissolution** (dissolving at a linear, predictable degradation rate) or **Depth-Responsive Pressure Activation** (rupturing via hydrostatic pressure at a specific targeted depth).
-    *   **Avian & Marine Protection:** The shell is dyed bright **red**. Based on ocean physics, red light is filtered out completely within the first few meters of water depth, making the capsule look like an invisible, non-food item (grey/black stone) to deep-sea fish. For surface birds, the shell is infused with a natural bittering agent, ensuring birds instantly reject it if tasted. The red color also ensures effortless visual spotting for retrieval drones on the surface.
+Capsule deployment utilizes predictable ocean currents and upwelling zones as a zero-energy conveyor belt:
+• Upstream Release: Guided by satellite current mapping, capsules are deployed upstream of known coastal currents, oceanic gyres, or river plumes.
+• Passive Subsurface Sweep & Boom Capture: As capsules sink, burst at target depth, and ascend with bound microplastics, prevailing currents transport the buoyant magnetic clusters directly into anchored electromagnetic booms or skimming vessels stationed downstream.
 
-*   **2. The Hydrophobic Core (Vegetable Oil Matrix):** 
-    *   **Plastic Binding Affinity:** The interior space is filled with sustainable vegetable oil. Based on the chemical law of *"like dissolves like"*, both microplastics and organic oils are highly hydrophobic (water-repelling). When plastic particles collide with the exposed oil matrix, they partition into the oil phase and become permanently trapped inside the capsule core.
+🔄 Environmental Lifecycle (Zero Waste)
 
-*   **3. The Osmotic & Magnetic Core (Salt & Magnetized Iron Powder):**
-    *   **Passive Osmotic Pump:** At the absolute center sits a high-concentration salt core. When the outer membrane activates, seawater comes into contact with the salt. The sudden osmotic gradient creates a mechanical pumping effect, drawing microplastic-heavy water directly through the oil filter layer.
-    *   **Magnetized Iron Powder:** Mixed within the core is non-toxic, magnetized iron powder, which initially serves as a physical ballast weight to pull the capsule down into the water column. As the salt dissolves and the oil traps the light plastic particles, the capsule gains buoyancy to rise back toward the surface. The iron powder turns the entire capsule into a highly magnetic target, allowing cleanup vessels to harvest thousands of capsules instantly using high-powered electromagnets without using disruptive trawling nets.
-
-## 🔄 Environmental Lifecycle (Zero Waste)
-```mermaid
+mermaid
 graph TD
-    Start[Capsule Deployment] --> Descent[Descent: Iron powder acts as ballast weight]
-    Descent --> Trigger[Trigger: Time or Hydrostatic Pressure opens shell]
-    Trigger --> Pump[Osmotic Pump: Salt core draws water inside]
-    Pump --> Trapping[Trapping: Vegetable oil filters and binds microplastics]
-    Trapping --> Buoyancy[Buoyancy Shift: Salt dissolves, plastic lightens capsule]
-    Buoyancy --> Ascent[Ascent: Capsule rises back to the surface]
+    Start[Upstream Capsule Deployment] --> Descent[Descent: Capsule sinks into deep water column]
+    Descent --> Trigger[Trigger: Alginate dissolves & 5–20 bar pressure + CaCl₂ burst opens PHA shell]
+    Trigger --> Dispersal[Dispersal: Exothermic heat keeps oleic-magnetite bio-ferrofluid fluid]
+    Dispersal --> Trapping[Trapping: Hydrophobic oil binds microplastics]
+    Trapping --> Ascent[Ascent: Buoyant oil-magnetite-plastic clusters rise & drift downstream]
     
-    Ascent --> Retrieval{Electromagnetic Retrieval?}
-    Retrieval -->|Yes| Harvest[Harvested: Cleaned via electromagnets without nets]
-    Retrieval -->|No / Lost| Biodegrade[Biodegrades: Safe breakdown, iron supplements seabed]
+    Ascent --> Retrieval{Electromagnetic Boom Retrieval?}
+    Retrieval -->|Yes| Harvest[Harvested: Collected via electromagnets with zero bycatch]
+    Retrieval -->|No / Lost| Biodegrade[Biodegrades: Alginate, PHA, oleic acid, CaCl₂ & iron oxide break down safely]
 
     style Trigger fill:#EB984E,stroke:#333,stroke-width:1px
     style Retrieval fill:#AF7AC5,stroke:#333,stroke-width:2px
-```
+Käytä koodia harkiten.
+If a capsule or cluster evades magnetic retrieval, it poses zero environmental hazard and produces zero bycatch (unlike fine-mesh trawling nets). Every single component—seaweed alginate, PHA biopolymer, plant-derived oleic acid, calcium chloride, and iron oxide—degrades naturally in cold seawater without leaving microplastics or toxic residues.
 
-If a capsule is lost or evades magnetic retrieval, it poses **zero environmental hazard**. Every single component—from the outer biopolymer to the vegetable oil and salt core—is fully biodegradable and non-toxic. The iron powder returns to the seabed as a natural iron supplement for marine flora.
+📄 License
 
-## 📄 License
-
-This project is licensed under the **MIT License** – preserving the original architecture credited to the creator.
-
+This project is licensed under the MIT License – preserving the original architecture credited to the creator.
 Copyright (c) 2026 masakertsa
