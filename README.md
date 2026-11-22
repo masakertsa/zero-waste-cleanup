@@ -46,6 +46,13 @@ Capsule deployment utilizes predictable ocean currents and upwelling zones as a 
 • Upstream Release: Guided by satellite current mapping, capsules are deployed upstream of known coastal currents, oceanic gyres, or river plumes.
 • Passive Subsurface Sweep & Boom Capture: As capsules sink, burst at target depth, and ascend with bound microplastics, prevailing currents transport the buoyant magnetic clusters directly into anchored electromagnetic booms or skimming vessels stationed downstream.
 
+### ⏱ Hydrodynamic Drift Calibration (Current Velocity × Cycle Time)
+
+Because ocean currents continuously transport the capsule horizontally during descent, osmotic activation, and ascent, release coordinates are calibrated directly against local current velocity:
+
+- **Drift-Distance Formula ($d = v \times t$):** Upstream release distance ($d$) is calculated by multiplying local current speed ($v$) by the total subsurface cycle time ($t$ — controlled by the seaweed alginate shell thickness and target depth).
+- **Precision Surface Arrival:** By matching shell dissolution time to current velocity, buoyant magnetic oil-plastic clusters surface right inside the capture corridor ahead of the downstream electromagnetic booms, preventing premature dispersion in fast currents or early surfacing in slow waters.
+
 🔄 Environmental Lifecycle (Zero Waste)
 
 ```mermaid
