@@ -5,6 +5,7 @@ This project introduces a 100% marine-biodegradable, non-electric, and zero-wast
 
 🛠️ Technical Design & Architecture
 
+```mermaid
 graph TD
     subgraph "1. Dual-Layer Marine-Biodegradable Shell"
         A[Bright Red Dye & Bittering Agent] -->|Protects birds/fish & helps drones| B[Seaweed Alginate + PHA Shell]
@@ -23,9 +24,10 @@ graph TD
         E -->|Light plastics + oil lift cluster| I[Surface Ascent & Magnetic Boom Retrieval]
     end
 
-    style B fill:#EC7063,stroke:#333,stroke-width:2px
-    style D fill:#F4D03F,stroke:#333,stroke-width:2px
-    style G fill:#5D6D7E,stroke:#333,stroke-width:2px
+    style B fill:#991b1b,stroke:#f87171,stroke-width:2px,color:#fff
+    style D fill:#b45309,stroke:#fbbf24,stroke-width:2px,color:#fff
+    style G fill:#1e3a8a,stroke:#60a5fa,stroke-width:2px,color:#fff
+```
 
 The capsule consists of three strategically layered biomaterial components engineered for cold, high-pressure deep-sea environments:
 • 1. The Dual-Layer Marine-Biodegradable Shell (Seaweed Alginate + PHA):
