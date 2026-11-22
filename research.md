@@ -2,24 +2,25 @@
 
 This document provides the foundational physics, chemical kinetics, and fluid dynamics behind the biodegradable passive microplastic magnetic catcher.
 
-## 1. Fluid Dynamics & Osmotic Pumping Mechanics
+## 1. Fluid Dynamics & Exothermic Osmotic Burst Mechanics
 
-The capsule operates as a passive, non-electric hydraulic pump by utilizing mass transport and osmotic pressure gradients.
+The capsule operates as a passive, non-electric hydraulic pump and depth-activated disperser by utilizing hydrostatic pressure, exothermic dissolution, and osmotic pressure gradients.
 
-*   **The Osmotic Gradient (Salt Core):** When the outer membrane activates, marine water breaches the shell and contacts the solid salt core. Based on osmotic laws, water naturally flows from low solute concentration (seawater) toward high solute concentration (the saturated salt core).
-*   **Passive Hydraulic Suction:** This massive thermodynamic driving force creates an inner pressure differential, acting as a micro-pump. It draws surrounding seawater, along with suspended microplastic particles, directly through the outer biopolymer layer and into the oil matrix without requiring mechanical or electrical power.
+*   **Hydrostatic & Time-Controlled Activation:** The outer seaweed alginate film dissolves over a calibrated time window while the rigid inner polyhydroxyalkanoate (PHA) shell is engineered to rupture at **5–20 bar** of hydrostatic pressure (50–200 m depth).
+*   **Exothermic Osmotic Gradient ($\text{CaCl}_2$ Core):** When seawater permeates the inner membrane and contacts the **calcium chloride ($\text{CaCl}_2$)** core, water flows rapidly toward the concentrated brine via osmotic pressure ($\Pi = iMRT$). Simultaneously, $\text{CaCl}_2$ dissolution releases mild exothermic heat, warming the surrounding bio-ferrofluid to reduce viscosity before rupturing the PHA shell in a controlled burst.
 
-## 2. Hydrophobic Affinity & Chemical Binding Kinetics
+## 2. Cold-Resistant Hydrophobic Affinity & Bio-Ferrofluid Kinetics
 
-The extraction of microplastics from the water column relies on the chemical principles of hydrophobic interaction and surface energy minimization.
+The extraction of microplastics from cold deep-water columns relies on viscosity control, hydrophobic interaction, and interfacial surface energy minimization.
 
-*   **Interfacial Surface Energy:** Microplastics (such as polyethylene, polypropylene, and polystyrene) are highly hydrophobic, meaning they repel water and possess high interfacial surface energy when exposed to marine environments.
-*   **The Thermodynamic Trap ("Like Dissolves Like"):** Vegetable oils share this exact hydrophobic profile. When a microplastic particle is drawn into the capsule and contacts the vegetable oil matrix, the water-plastic interface is instantly replaced by an oil-plastic interface. This drastically reduces the free energy of the system, trapping the plastic inside the oil phase. The binding is permanent and mechanical, preventing the microplastics from leaching back out into the ocean.
+*   **Deep-Sea Viscosity Control:** Because standard plant oils solidify at $+2\,^\circ\text{C}$ to $+4\,^\circ\text{C}$, the matrix blends **cold-resistant oleic acid** with refined vegetable oils to maintain low viscosity in cold ocean currents.
+*   **The Thermodynamic Trap ("Like Dissolves Like"):** Microplastics (polyethylene, polypropylene, polystyrene) are strongly hydrophobic and carry high interfacial surface energy in seawater. When dispersed oil droplets collide with suspended microplastics, the water-plastic interface is replaced by a lower-energy oil-plastic interface—permanently partitioning the plastics into the oil phase.
+*   **Oleic-Coated Magnetite ($\text{Fe}_3\text{O}_4$) Binding:** Non-toxic superparamagnetic magnetite ($\text{Fe}_3\text{O}_4$) nanoparticles coated with hydrophobic oleic acid remain permanently suspended inside the oil droplets, converting every oil-plastic cluster into a cohesive magnetic target.
 
-## 3. Electromagnetic Ballast & Marine Optical Physics
+## 3. Buoyancy Inversion, Magnetic Retrieval & Marine Optical Physics
 
-The dual-phase lifecycle of the capsule manages its depth, retrieval, and marine biological safety through precise physical parameters.
+The dual-phase lifecycle of the capsule manages its descent, surface ascent, harvesting, and marine biological safety through precise physical parameters.
 
-*   **Dynamic Buoyancy:** The magnetized iron powder serves initially as a physical ballast, establishing a high initial bulk density that sinks the capsule down to the targeted cleanup zone. As the salt dissolves into the surrounding sea and the core captures low-density microplastic lipids, the capsule's overall density drops below that of seawater (approx. 1.025 g/cm3), causing it to rise back to the surface for harvesting.
-*   **Electromagnetic Harvesting Kinetics:** Once on the surface, the non-toxic magnetized iron powder reacts instantly to high-power electromagnets deployed by cleanup vessels. This magnetic susceptibility allows for zero-contact, net-free retrieval, leaving native marine organisms and ecosystems undisturbed.
-*   **Optical Filtering Against Marine Ingestion:** The choice of a bright red biopolymer shell is grounded in oceanic optical physics. Water absorbs red wavelengths of light rapidly; within the first 5 to 10 meters of depth, red light is completely filtered out of the solar spectrum. To deep-sea fish, the capsule appears as a dull, camouflaged grey or black object, eliminating the risk of ingestion. For surface birds, natural plant-based bittering agents trigger a gustatory rejection response, ensuring immediate spitting if sampled.
+*   **Dynamic Buoyancy Inversion:** Initially, the dense $\text{CaCl}_2$ salt core and magnetite payload give the capsule negative buoyancy, carrying it down into the target water column. Once the PHA shell ruptures and the $\text{CaCl}_2$ dissolves into the surrounding sea, the low-density oleic oil ($\sim 895\text{ kg/m}^3$) and trapped microplastics ($\sim 920\text{ kg/m}^3$) drop the cluster's bulk density below that of seawater ($\approx 1025\text{ kg/m}^3$), driving passive ascent to the surface.
+*   **Electromagnetic Harvesting Kinetics:** At the surface, prevailing currents carry the buoyant magnetic clusters into downstream **electromagnetic booms** or skimming vessels. The $\text{Fe}_3\text{O}_4$ nanoparticles respond immediately to applied magnetic field gradients, enabling net-free, zero-bycatch collection.
+*   **Optical Filtering & Gustatory Protection:** The bright red biopolymer shell leverages oceanic optical physics: water absorbs red wavelengths rapidly, filtering out red light within the first 5 to 10 meters of depth so the capsule appears as a camouflaged grey or black stone to deep-sea fish. On the surface, natural plant-based bittering agents trigger an immediate rejection response in seabirds, while the red color aids visual tracking by retrieval drones.
