@@ -48,6 +48,7 @@ Capsule deployment utilizes predictable ocean currents and upwelling zones as a 
 
 🔄 Environmental Lifecycle (Zero Waste)
 
+```mermaid
 graph TD
     Start[Upstream Capsule Deployment] --> Descent[Descent: Capsule sinks into deep water column]
     Descent --> Trigger[Trigger: Alginate dissolves & 5–20 bar pressure + CaCl₂ burst opens PHA shell]
@@ -59,8 +60,9 @@ graph TD
     Retrieval -->|Yes| Harvest[Harvested: Collected via electromagnets with zero bycatch]
     Retrieval -->|No / Lost| Biodegrade[Biodegrades: Alginate, PHA, oleic acid, CaCl₂ & iron oxide break down safely]
 
-    style Trigger fill:#EB984E,stroke:#333,stroke-width:1px
-    style Retrieval fill:#AF7AC5,stroke:#333,stroke-width:2px
+    style Trigger fill:#c2410c,stroke:#fb923c,stroke-width:2px,color:#fff
+    style Retrieval fill:#6b21a8,stroke:#c084fc,stroke-width:2px,color:#fff
+```
 
 If a capsule or cluster evades magnetic retrieval, it poses zero environmental hazard and produces zero bycatch (unlike fine-mesh trawling nets). Every single component—seaweed alginate, PHA biopolymer, plant-derived oleic acid, calcium chloride, and iron oxide—degrades naturally in cold seawater without leaving microplastics or toxic residues.
 
