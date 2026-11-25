@@ -45,6 +45,7 @@ The capsule consists of three strategically layered biomaterial components engin
 Capsule deployment utilizes predictable ocean currents and upwelling zones as a zero-energy conveyor belt:
 • Upstream Release: Guided by satellite current mapping, capsules are deployed upstream of known coastal currents, oceanic gyres, or river plumes.
 • Passive Subsurface Sweep & Boom Capture: As capsules sink, burst at target depth, and ascend with bound microplastics, prevailing currents transport the buoyant magnetic clusters directly into anchored electromagnetic booms or skimming vessels stationed downstream.
+• Geographic Choke-Point & Strait Funneling:** Rather than relying solely on unpredictable open-ocean gyres, deployment is optimized for natural coastal bottlenecks—such as narrow straits, island channels, and major river estuaries. In these predictable high-throughput corridors, local bathymetry and tidal currents naturally funnel rising magnetic oil-plastic clusters into a narrow capture zone, allowing compact, anchored electromagnetic booms to harvest microplastics with maximum efficiency.
 
 ### ⏱ Hydrodynamic Drift Calibration (Current Velocity × Cycle Time)
 
